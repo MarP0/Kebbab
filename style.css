@@ -36,6 +36,12 @@ footer {
   background-color: #465F95;
   color: white;
   text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-top-width: 4px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
 }
 
 footer {
@@ -49,6 +55,6 @@ footer {
 }
 
 .FlexR {
-  margin-top: 40px;
+  margin-top: 55px;
   margin-right: 60px;
 }
