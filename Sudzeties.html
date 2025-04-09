@@ -10,22 +10,21 @@
   <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Just Another Hand' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-
 </head>
-  
+
   <div class="navBar">
-    
+
     <img id="logo" src='https://media.istockphoto.com/id/1128826884/vector/no-image-vector-symbol-missing-available-icon-no-gallery-for-this-moment.jpg?s=612x612&w=0&k=20&c=390e76zN_TJ7HZHJpnI7jNl7UBpO3UP7hpR2meE1Qd4=' width="200px" height="70px">
-    
+
     <table>
       <tr>
         <td>
-          <a class="OthPages" class="active" href="index.html">Sākums</a>
+          <a class="OthPages" href="index.html">Sākums</a>
           <!-- type *page2name.html where href info goes -->
-          <a class="OthPages" href="#promocodes">Promokodi</a>
-          <a class="OthPages" href="#menu">Menu</a>
-          <a class="OthPages" href="#galery">Galerija</a>
-          <a class="OthPages" href="Sudzeties.html">Sūdzēties</a>
+          <a class="OthPages" href="#news">Promokodi</a>
+          <a class="OthPages" href="#contact">Menu</a>
+          <a class="OthPages" href="#about">Galerija</a>
+          <a class="OthPages" class="active" href="Sudzeties.html">Sūdzēties</a>
           <a class="OthPages" href="#contact">Kontakti</a>
           <a class="OthPages" href="#about">Par mums</a>
         </td>
@@ -34,14 +33,46 @@
         </td>
       </tr>
     </table>
-      
+
   </div>
-  
+
 <body>
-  <div class="inBody">
-    
+  <div class="inBodySue">
+    <table>
+      <tr>
+        <td>
+          <p class="sueustxt">Vārds:</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" id="name" name="name">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="sueustxt">E-pasts:</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" id="email" name="email">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="sueustxt">Sūdzības teksts:</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <textarea id="text" name="text" rows="4" cols="50"></textarea>
+        </td>
+      </tr>
+    </table>
+    <button onclick="sudziba()">Try it</button>
   </div>
-  
+
   <script src="script.js"></script>
 </body>
 
