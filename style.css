@@ -1,5 +1,5 @@
 html {
-  height: 1332px;
+  height: 800px;
   width: 100%;
 }
 
@@ -86,7 +86,7 @@ footer {
   width: 580px;
   background-color: #D1E7FF;
   padding: 90px;
-  padding-left: 150px;
+  padding-left: 120px;
   
   border-radius: 30px;
   border-style: solid;
@@ -98,4 +98,39 @@ footer {
   font-family: "Inter";
   font-size: 26px;
   margin: 0px;
+}
+
+input {
+  border: solid 3px #4471AD;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  width: 452px;
+
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+button {
+  margin-left: 4px;
+  
+  width: 60px;
+  height: 40px;
+  font-family: "Inter";
+  font-size: 16px;
+  color: white;
+  background-color: #4471AD;
+  border: solid 3px #465F95;
+  border-radius: 8px;
+  margin-top: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#fsue {
+  top: 1048px;
 }
