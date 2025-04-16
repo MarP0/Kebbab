@@ -129,8 +129,9 @@ button {
   margin-top: 30px;
   text-align: center;
   vertical-align: middle;
+  cursor: pointer;
 }
 
-#fsue {
+#fsueorlog {
   top: 1048px;
 }
