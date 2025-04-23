@@ -76,7 +76,7 @@ footer {
 
 #logo {
   margin-top: 5px;
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 .inBodySue {
@@ -134,4 +134,8 @@ button {
 
 #fsueorlog {
   top: 1048px;
+}
+
+.navtxt {
+  margin-right: 70px;
 }
