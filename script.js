@@ -2,7 +2,7 @@ function sudziba() {
   alert("Sūdzība veiksmīgi nosūtīta!");
 }
 
-function ieiet() {
+function aieiet() {
   let Parole_ = document.getElementById("parole").value;
   let E_pasts_ = document.getElementById("emails").value;
   if (Parole_ == "12345678" && E_pasts_ == "admins@gmail.com")
