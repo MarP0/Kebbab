@@ -18,6 +18,7 @@ html {
   position: absolute;
   left: 0px;
   top: 90px;
+  width: 100%;
   background-color: #a4d1f5;
 }
 
@@ -66,9 +67,10 @@ footer {
 
 .OthPages {
   font-family: "Just Another Hand";
+  font-weight: normal;
   color: white;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 45px;
   margin-top: 30px;
   margin-left: 20px;
   margin-right: 20px
@@ -85,6 +87,7 @@ footer {
   height: 440px;
   width: 580px;
   background-color: #D1E7FF;
+  background-image: url("BG1.png");
   padding: 90px;
   padding-left: 120px;
   
@@ -140,6 +143,10 @@ button {
   margin-right: 70px;
 }
 
+#loginimg {
+  margin-top: 5px;
+}
+
 .textBox1 {
   background-color: rgb(0, 0, 0, 0.18);
   border-style: solid;
@@ -160,8 +167,28 @@ button {
   line-height: auto;
 }
 
-#YB1 {
+p {
+  font-weight: normal;
+  margin: 0px;
+}
+
+.speks {
+  font-family: "Just Another Hand";
+  font-weight: normal;
+  color: white;
+  font-size: 230px;
+  background-color: #a4d1f5;
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+}
+
+#movespeks {
+  position: relative;
+  left: 560px;
+  top: -80px;
+}
+
+#kebabfoto {
   position: absolute;
-  top: 724px;
-  left: -124px;
+  left: 1100px;
+  top: 500px;
 }
