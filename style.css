@@ -30,7 +30,6 @@ footer {
   font-family: "Jua";
   position: absolute;
   left: 0;
-  top: 1920px;
   height: 146px;
   width: 100%;
   background-color: #465F95;
@@ -135,7 +134,7 @@ button {
   cursor: pointer;
 }
 
-#fsueorlog {
+.smallfoot {
   top: 1048px;
 }
 

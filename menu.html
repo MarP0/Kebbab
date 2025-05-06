@@ -10,8 +10,9 @@
   <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Just Another Hand' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
 </head>
-  <body>
+
   <div class="navBar">
 
     <img id="logo" src='logon.png' width="200px" height="70px">
@@ -21,47 +22,26 @@
         <td>
           <a class="OthPages" href="index.html">Sākums</a>
           <!-- type *page2name.html where href info goes -->
-          <a class="OthPages" href="#news">Promokodi</a>
-          <a class="OthPages" href="#contact">Menu</a>
-          <a class="OthPages" href="#about">Galerija</a>
+          <a class="OthPages" href="promokodi.html">Promokodi</a>
+          <a class="OthPages" class="active" href="menu.html">Menu</a>
+          <a class="OthPages" href="galerija.html">Galerija</a>
           <a class="OthPages" href="Sudzeties.html">Sūdzēties</a>
-          <a class="OthPages" href="#contact">Kontakti</a>
-          <a class="OthPages" href="#about">Par mums</a>
+          <a class="OthPages" href="Kontakti.html">Kontakti</a>
+          <a class="OthPages" href="parmums.html">Par mums</a>
         </td>
         <td>
-          <a class="OthPages" class="active" href="LogIn.html"><img src="Pictures/Acc.png" width="70px" height="70px"></a>    
+          <a class="OthPages" href="LogIn.html"><img src="Pictures/Acc.png" width="70px" height="70px" id="loginimg"></a>    
         </td>
       </tr>
     </table>
 
   </div>
 
-  <div class="inBodySue">
-    <table>
-      <tr>
-        <td>
-          <p class="sueustxt">E-pasts</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <input id="emails" type="email" placeholder="Raksti Šeit">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p class="sueustxt">Parole</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <input id="parole" type="text" placeholder="Raksti Šeit"></input>
-        </td>
-      </tr>
-    </table>
-    <button onclick="aieiet()">Ieiet</button>
-  </div>
+<body>
+  <div class="inBody">
+
   <script src="script.js"></script>
+  </body>
 
 <footer class="smallfoot">
     <div class="FlexL">
@@ -71,6 +51,5 @@
       <p>© Kebbab</p>
     </div>
 </footer>
-  
-  </body>
+
 </html>
