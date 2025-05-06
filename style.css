@@ -3,6 +3,20 @@ html {
   width: 100%;
 }
 
+.nob {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+img {
+  padding: 0px;
+  margin: 0px;
+  border: 3px;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
 .navBar {
   position: absolute;
   left: 0px;
@@ -142,6 +156,10 @@ button {
   top: 2848px;
 }
 
+.galfoot {
+  top: 2308px;
+}
+
 .navtxt {
   margin-right: 70px;
 }
@@ -214,4 +232,17 @@ p {
   position: absolute;
   left: 1100px;
   top: 500px;
+}
+
+#galtable {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.yt {
+  border-radius: 50px;
+}
+
+#w {
+  margin-left: 840px;
 }
